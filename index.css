@@ -263,10 +263,6 @@ background-color: aqua;
       max-width: 50%;
     }
 
-    #about
-    {
-      margin-top: 10em;
-    }
   }
 
   @media (max-width: 768px) {
@@ -309,11 +305,6 @@ background-color: aqua;
         margin-bottom: 20px;
       }
 
-      .about
-      {
-        margin-top: 60em;
-       
-      }
   
   }
   
