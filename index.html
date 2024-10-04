@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>ByteBuilders</title>
+</head>
+<body>
+<!-- NavBar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" id="nav-title">
+      <img src="./images/logo.PNG" id="logo">
+      <a class="navbar-brand" href="#"><span id="logo-font">ByteBuilders</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 jus">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#hero"><span id="links">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#categories"><span id="links">Courses</span></a>
+          </li>
+          <li class="nav-item"> 
+            <a class="nav-link" href="#"><span id="links">About</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> <span id="links">Contact Us</span></a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-outline-success" type="submit">Sign In</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- End -->
+
+<!-- Home section -->
+    <!-- Hero -->
+<section class="hero">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 hero-text">
+          <h1 id="welcome">Welcome to <span id="bytes">ByteBuilders</span></h1>
+          <p>Dive into coding with our easy-to-follow tutorials and hands-on projects. Whether you’re a beginner or looking to improve, join our community and start building your programming skills today!</p>
+          <button class="btn btn-success btn-lg">Get Started</button>
+        </div>
+        <div class="col-lg-6 hero-image">
+          <img src="./images/hero.png" alt="Hero Image" class="img-fluid">
+        </div>
+      </div>
+      <!-- Featured Section -->
+      <div class="row featured-section"  id="featured">
+        <div class="col-lg-12">
+          <span id="featured-text">Featured Tutorials</span>
+          <div class="row justify-content-center mt-5">
+            <div class="col-lg-4 featured-item">
+              <img src="./images/tutorial1.jpg" alt="Tutorial 1" class="img-fluid">
+              <h3 class="mt-3">Tutorial 1: Introduction to HTML</h3>
+              <p>Learn the basics of HTML and start building your first web page.</p>
+            </div>
+            <div class="col-lg-4 featured-item">
+              <img src="./images/tutorial2.png" alt="Tutorial 2" class="img-fluid">
+              <h3 class="mt-3">Tutorial 2: JavaScript Fundamentals</h3>
+              <p>Discover the power of JavaScript and learn how to add interactivity to your web pages.</p>
+            </div>
+            <div class="col-lg-4 featured-item">
+              <img src="./images/tutorial3.jpg" alt="Tutorial 3" class="img-fluid">
+              <h3 class="mt-3">Tutorial 3: Building a To-Do List App</h3>
+              <p>Learn how to build a fully functional to-do list app using HTML, CSS, and JavaScript.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+
+   <!-- Courses Section -->
+<section class="courses" id="categories">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 mt-5 text-center">
+          <span id="courses-text">Categories</span>
+          <div class="row justify-content-center mt-5">
+            <div class="col-lg-4 course-card">
+              <div class="card">
+                <img src="./images/course1.jfif" alt="Course 1" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">Learn to build and design websites using HTML, CSS, JavaScript, and popular frameworks.</p>
+                  <a href="#" class="btn btn-success">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 course-card">
+              <div class="card">
+                <img src="./images/course2.jpeg" alt="Course 2" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Game Development</h5>
+                  <p class="card-text">Develop games using Unity, Unreal Engine, and learn game design principles.</p>
+                  <a href="#" class="btn btn-success">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 course-card">
+              <div class="card">
+                <img src="./images/course3.jpg" alt="Course 3" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Artificial Intelligence</h5>
+                  <p class="card-text"> Dive into AI topics like natural language processing, computer vision, and AI ethics.</p>
+                  <a href="#" class="btn btn-success">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End -->
+
+    
+<!-- Bootsrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
