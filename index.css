@@ -15,6 +15,16 @@ body {
     overflow-x: hidden;
 }
 
+.navbar {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff; /* or any other background color you prefer */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
 
 #logo
 {
@@ -46,9 +56,8 @@ body {
     backdrop-filter: blur(11.1px);
     -webkit-backdrop-filter: blur(11.1px);
     border: 1px solid rgba(213, 213, 213, 0.3);
-    background-size: cover;
-    background-position: center;
     display: flex; 
+    margin-top: 5em;
   }
   
   .hero-text {
@@ -255,12 +264,15 @@ background-color: aqua;
       flex: 0 0 50%;
       max-width: 50%;
     }
+
+    #about
+    {
+      margin-top: 10em;
+    }
   }
 
   @media (max-width: 768px) {
-    .hero {
-      height: 80vh; 
-    }
+
     .hero-text {
       padding: 20px; 
     }
@@ -285,11 +297,7 @@ background-color: aqua;
         flex: 0 0 50%;
         max-width: 50%;
       }
-      .courses
-      {
-        padding: 80em 0 0;
-        height: 100vh;
-      }
+
 
       #courses-text{
         font-size: 3em;
@@ -305,7 +313,7 @@ background-color: aqua;
 
       .about
       {
-        margin-top: 110em;
+        margin-top: 60em;
        
       }
   
@@ -313,9 +321,7 @@ background-color: aqua;
   
   /* For small screens (mobiles) */
   @media (max-width: 480px) {
-    .hero {
-      height: 60vh; 
-    }
+
     .hero-text {
       padding: 15px; 
     }
@@ -343,10 +349,6 @@ background-color: aqua;
       .card {
         margin-bottom: 20px;
       }
-      .courses
-      {
-        padding: 80em 0 0;
-        height: 100vh;
-      }
+ 
 
   }
