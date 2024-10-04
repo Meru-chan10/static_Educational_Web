@@ -12,7 +12,9 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    overflow-x: hidden;
 }
+
 
 #logo
 {
@@ -223,14 +225,14 @@ background-color: aqua;
   #contact
   {
     margin-top: 5em;
-    height: 60vh;
+
     background: rgba(110, 248, 248, 0.54);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.2px);
     -webkit-backdrop-filter: blur(7.2px);
     border: 1px solid rgba(110, 248, 248, 0.3);
-    padding-top: 5%;
+    padding: 5%;
 
   }
 
@@ -239,6 +241,11 @@ background-color: aqua;
     font-size: 39px;
   }
 
+  .footer-text
+  {
+    color: white;
+    font-size: 18px;
+  }
 
   /* For medium screens (tablets) */
 
